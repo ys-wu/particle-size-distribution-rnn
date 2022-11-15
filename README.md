@@ -17,11 +17,9 @@ So `dN/dlogDp` is in the unit of the number of particles per unit volume ($cm^{-
 
 For example, if there are 100 particles per $cm^{3}$ ($dN=100$) between 10 and 100 $nm$, then the average `dN/dlogDp` of this size range is $100$, because the size spans an order of magnitude ($dlogDp=log100-log10=1$).
 
----
-
 ### Data Acquisition
 
-Open data from [SMEAR](https://www.atm.helsinki.fi/SMEAR/) stations are available [online](https://smear.avaa.csc.fi/).
+All training data are open data from [SMEAR](https://www.atm.helsinki.fi/SMEAR/) stations are available [online](https://smear.avaa.csc.fi/).
 
 #### Inputs
 - Meterological Parameters
@@ -40,4 +38,5 @@ Open data from [SMEAR](https://www.atm.helsinki.fi/SMEAR/) stations are availabl
 #### Output
 - PNSD
 
----
+### Data Wrangling
+- [Inspect raw data](https://colab.research.google.com/drive/1jFsD-2S-5tRz7fEHLoEE5PAtyWl3dTHY) by plotting all time-series figures.
