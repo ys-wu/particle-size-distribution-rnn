@@ -41,3 +41,4 @@ All training data are open data from [SMEAR](https://www.atm.helsinki.fi/SMEAR/)
 ### Data Wrangling
 - [Inspect raw data](https://colab.research.google.com/drive/1jFsD-2S-5tRz7fEHLoEE5PAtyWl3dTHY) by plotting all time-series figures.
 - [Download raw data](https://colab.research.google.com/drive/1YE9owmBAdXRGRc3GGgjkzEa_bhPw73xO) using API.
+- [Drop invalid data](https://colab.research.google.com/drive/10SxecYwwqq2ArByEVuo4bzhdcY9Vsx7L)
