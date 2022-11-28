@@ -19,7 +19,7 @@ For example, if there are 100 particles per $cm^{3}$ ($dN=100$) between 10 and 1
 
 ### Data Acquisition
 
-All training data are open data from [SMEAR](https://www.atm.helsinki.fi/SMEAR/) stations are available [online](https://smear.avaa.csc.fi/).
+All training data are open data from [SMEAR](https://www.atm.helsinki.fi/SMEAR/) stations are available [online](https://smear.avaa.csc.fi/). 
 
 #### Inputs
 - Meterological Parameters
@@ -39,6 +39,7 @@ All training data are open data from [SMEAR](https://www.atm.helsinki.fi/SMEAR/)
 - PNSD
 
 ### Data Wrangling
-- [Inspect raw data](https://colab.research.google.com/drive/1jFsD-2S-5tRz7fEHLoEE5PAtyWl3dTHY) by plotting all time-series figures.
-- [Download raw data](https://colab.research.google.com/drive/1YE9owmBAdXRGRc3GGgjkzEa_bhPw73xO) using API.
-- [Drop invalid data](https://colab.research.google.com/drive/10SxecYwwqq2ArByEVuo4bzhdcY9Vsx7L)
+- Inspect SMEAR raw data by plotting all time-series figures. ([notebook](https://colab.research.google.com/drive/1jFsD-2S-5tRz7fEHLoEE5PAtyWl3dTHY))
+- Download SMEAR raw data using API. ([notebook](https://colab.research.google.com/drive/1YE9owmBAdXRGRc3GGgjkzEa_bhPw73xO))
+- Drop SMEAR invalid data and calculate east and north scalar wind components from WS and WD. ([notebook](https://colab.research.google.com/drive/10SxecYwwqq2ArByEVuo4bzhdcY9Vsx7L))
+- Synchronize SMEAR data into the same timestamps. One year of data from another site, Qvidha ([map](https://goo.gl/maps/4KfbuwUkLxkt3oJu5)), is used as a test set and is not available online. P and N<sub>tot</sub> are not measured in Qvidja, and P is filled with 1000 mbar.([notebook]((https://colab.research.google.com/drive/1MR7xmjYovuBR38g_Ojng16WD8NnRSyJu)))
