@@ -38,9 +38,10 @@ All training data are open data from [SMEAR](https://www.atm.helsinki.fi/SMEAR/)
 #### Output
 - PNSD
 
-### Data Wrangling
+### Data Wrangling and Pre-processing
 - Inspect SMEAR raw data by plotting all time-series figures. ([notebook](https://colab.research.google.com/drive/1jFsD-2S-5tRz7fEHLoEE5PAtyWl3dTHY))
 - Download SMEAR raw data using API. ([notebook](https://colab.research.google.com/drive/1YE9owmBAdXRGRc3GGgjkzEa_bhPw73xO))
 - Drop SMEAR invalid data and calculate east and north scalar wind components from WS and WD. ([notebook](https://colab.research.google.com/drive/10SxecYwwqq2ArByEVuo4bzhdcY9Vsx7L))
 - Synchronize SMEAR data into the same timestamps (10 minutes). One year of data from another site, Qvidha ([map](https://goo.gl/maps/4KfbuwUkLxkt3oJu5)), is used as a test set and is not available online. P and N<sub>tot</sub> are not measured in Qvidja, and P is filled with 1000 mbar. ([notebook](https://colab.research.google.com/drive/1MR7xmjYovuBR38g_Ojng16WD8NnRSyJu))
-- Fill missing values with interpolation if the gap is short (< 3 hours>)([notebook](https://colab.research.google.com/drive/1lh-Ol3W3Vbkicxh193V35WB5pbDynhvr?usp=sharing))
+- Fill missing values with interpolation if the gap is short. (< 3 hours>)([notebook](https://colab.research.google.com/drive/1lh-Ol3W3Vbkicxh193V35WB5pbDynhvr))
+- Two features (Day of Year and hour) are extracted from DateTime. Combine yearly data and remove incomplete columns. ([notebook](https://colab.research.google.com/drive/1JkycQNRkc6Y2ZquZWaq4WbWPF31A_uCy))
